@@ -43,7 +43,8 @@ echo = "Hello..." + " hello..." * 3
 
 #String addition can be combined with the str() function to print non-string
 #output. For example,
-dollars = 5
+cents = 500
+dollars = cents / 100
 print("I have " + str(dollars) + " dollars")
 
 #%% Part 2: Combined Arithmetic and Assignment Operators
@@ -81,7 +82,7 @@ lt_or_eq = 5 <= 5 #Less than or equals to comparison
 gt_or_eq = 5 >= 5 #Greater than or equals to comparison
 not_eq = 5 != 5 #Not equals to comparison
 
-#In the above, all the comparison operators were assigned to variables
+#In the above code, the result of each comparison was assigned to a variable.
 #Can you think what variable type those variables might be?
 #Lets print some values and types of the variables above to find out.
 print("The value of eq is:", eq)
@@ -90,7 +91,7 @@ print("eq is of type", type(eq))
 print("lt is of type", type(lt))
 
 #It looks like the variables created above are all boolean values!
-#Remember, from Section 1, Boolean variables take the values True or False
+#Remember, from Section 1, boolean variables take the values True or False
 #We will discuss these variables in more depth in Part 4 below
 
 #There is one more comparison operator specific to Python, and that's 'is'
