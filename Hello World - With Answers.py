@@ -30,7 +30,7 @@ ignored by Python when the code is executed.
 print("Hello World!")
 
 #Now you try! Replace "<your name here>" with your name and run the code below
-print("Hi! My name is <your name here>")
+print("Hi! My name is Christian!")
 
 #%% Part 2: Variable Assignment
 
@@ -42,9 +42,10 @@ print("Hi! My name is <your name here>")
 hello_world = "Hello World!"
 print(hello_world)
 
-#Now you try! Replace "<today's date>" with today's date and the print the 
+#Now you try! Replace "<today's date>" with today's date and then print the 
 #'date' variable using the print() statement
-date = "<today's date>"
+date = "March 13, 2020"
+print(date)
 
 #We will explore the basic types of Python variables below
 
@@ -84,7 +85,7 @@ print(type(Nonetype))
 
 #One of the differences of Python as oppossed to programming langauges like Java
 #is that in Python, variables can freely switch between types.
-#For example, we can change the Nonetype variable to become a string
+#For example, we can change the Nonetype variable to a string
 Nonetype = "Nothing to see here"
 print(type(Nonetype))
 
@@ -92,6 +93,7 @@ print(type(Nonetype))
 #click into the console and type your response. Then press enter. After that,
 #write code that checks the type of the variable 'user_input'.
 user_input = input("How's your day going? ")
+print(type(user_input))
 
 #%% Part 4: Variable Type Conversions
 
@@ -113,5 +115,6 @@ print(bool(0))
 
 #Now you try! Write code below to print the value of "Hello World!" converted
 #to a boolean. Can you guess what string value might be False?
-
+print(bool("Hello World!")) #True
+print(bool("")) #False
 

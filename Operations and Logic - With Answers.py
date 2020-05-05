@@ -66,7 +66,7 @@ print(n)
 
 rubiks = 3
 #Cube rubiks
-
+rubiks **= 3
 print(rubiks)
 #Note: These combined operators are defined for all seven arithmetic operators
 
@@ -160,7 +160,9 @@ expression3 = (True or False) and False or False #Evaluates to False
 #  3 'and's
 #  1 'or'
 
-#answer = ...
+#The key is placing True on one side of the or statement at the beginning
+#or the end
+answer = True or False and False and False and False 
 
 # %% Part 5: Combining Logical and Comparison Operators
 
@@ -181,14 +183,14 @@ expression4 = x < y and z > y
 #Note that in the order of Python operations, comparison operators like
 #less than (<) or greater than (>) are always evaluated before logical operators.
 
-#Now you try! Write an expression that checks if a is not equal to b or 
+#Now you try! Write an expression that checks if a is equal to b or 
 #a is not less than c
 
 a = 4
 b = 2
 c = 7
 
-#answer2 = 
+answer2 = (a == b) or not (a < c) 
 
 #%% Part 6: Conditional statements 
 
@@ -236,6 +238,14 @@ else:
 
 string1 = "We are the knights who say 'Ni!'" 
 string2 = "We demand a sacrifice! We demand... a shrubbery!"
+
+if len(string1) > len(string2):
+    print("string 1 is longer")
+elif len(string2) > len(string1):
+    print("string 2 is longer")
+else:
+    print("The strings are of equal length")
+
 
 #Fun fact, Python is actually named after the British comedy group Monty Python
 #The above quotes are from arguably their most famous movie, Monty Python and the Holy Grail
