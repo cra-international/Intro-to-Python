@@ -82,7 +82,7 @@ print(type(floater))
 print(type(boolean))
 print(type(Nonetype))
 
-#One of the differences of Python as oppossed to programming langauges like Java
+#One of the differences of Python as opposed to programming langauges like Java
 #is that in Python, variables can freely switch between types.
 #For example, we can change the Nonetype variable to become a string
 Nonetype = "Nothing to see here"
