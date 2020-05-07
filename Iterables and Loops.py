@@ -60,8 +60,8 @@ non_fall_months = valid_months[:-3]
 #Use your knowledge of lists to create the variables below.
 
 top_10_players = ["Joe Burrow", "Chase Young", "Jeff Okudah", "Andrew Thomas", 
-               "Tua Tagovailoa", "Justin Herbert", "Derrick Brown", 
-               "Isaiah Simmons", "C.J. Henderson", "Jedrick Wills"]
+                  "Tua Tagovailoa", "Justin Herbert", "Derrick Brown", 
+                  "Isaiah Simmons", "C.J. Henderson", "Jedrick Wills"]
 
 #top_pick = 
 #picks_3_to_5 = 
