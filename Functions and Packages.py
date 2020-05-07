@@ -10,10 +10,10 @@ packages and also how to write your own functions.
 
 #%% Part 1: Packages
 #Packages, also known as libraries or modules, are external pre-packaged
-#Python scripts that can imported in order to quickly and concisely expand
+#Python scripts that can be imported in order to quickly and concisely expand
 #Python's functionality. Some packages, such as 'random' and 'math' come
-#with your Python installation, while others are written externally and
-#need to be downloaded to your computer. For now, we will work with the
+#by default with any Python installation, while others are written externally
+#and need to be downloaded to your computer. For now, we will work with just
 #built-in Python packages.
 
 #In section 2, we covered basic mathematical operations in Python. What if,
@@ -26,7 +26,7 @@ log_10 = math.log10(10)
 #Note that functions derived from packages follow the following syntax - 
 #<package name>.<function name>()
 
-#If you know which function of package you'd like to use and don't want
+#If you know which function in package you'd like to use and don't want
 #to constantly type the package name before each function call, you can also
 #import the function directly by typing
 from math import log10
@@ -37,7 +37,7 @@ log_100 = log10(100)
 #The most common way is online documentation. For example, a simple Google
 #search of 'math package python' yields the following website 
 #https://docs.python.org/3.7/library/math.html
-#This website provides a list of all of the functinos assocaited with the
+#This website provides a list of all of the functions associated with the
 #math package and also explanations of how each function is used. 
 
 #Many package developers include inline documentation as well, which
@@ -47,11 +47,11 @@ log_100 = log10(100)
 
 #Now you try! Go to the documentation website for the random package
 #by clicking on this url - https://docs.python.org/3.7/library/random.html
-#Then, write code using this package that returns a random number
+#Then, write code using this package that gets a random number
 #between 0 (inclusive) and 1 (not inclusive)
 
 
-#%% Writing Your Own Function
+#%% Part 2: Writing Your Own Function
 #What if rather than import a function from elsewhere, you want to write
 #your own function? That is easily done in python with the def command
 #For example, we can wrap the while loop we wrote in Section 3 in a 
@@ -70,6 +70,7 @@ def count_flips():
     return flips
 
 num_flips = count_flips()
+print(num_flips)
 
 #Note a couple of things about the above code. Firstly, note that the 
 #import statement is outside of the function definition. That is because

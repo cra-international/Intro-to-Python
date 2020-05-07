@@ -2,7 +2,7 @@
 Section 3: Iterables and Loops
 ------------------------------------------------------
 
-In section one, we weent over the basic Python variables: integers, floats,
+In section one, we went over the basic Python variables: integers, floats,
 booleans, and strings. Now, we'll cover the more complex data types of
 lists and dictionaries. We'll also discuss iteration, for and while loops, 
 and iterables.
@@ -21,9 +21,6 @@ valid_months = ["January", "Febuary", "March", "April", "May", "June",
 #Just as double and single-quotes are used to create strings, brackets
 #are used to create lists. 
 
-#We can verify the type by useing the type() function as in Section 1
-print(type(valid_months))
-
 #Lists are indexable, which means individuals elements can be accessed by
 #their position in the list. Lists are zero-indexed, meaning the index
 #starts at zero rather than one. Therefore, we can assign "January" to
@@ -34,7 +31,7 @@ first_month = valid_months[0]
 #Note that indexing follows a specific structure - the name of the variable
 #followed by the index number in brackets
 
-#Additionally, lists are mutable, which mean that can also use indexing to 
+#Additionally, lists are mutable, which mean that we can also use indexing to 
 #change values in a list. It looks like "February" is misspelled in the
 #valid_months variable. That value can be updated by doing the following - 
 
@@ -119,7 +116,7 @@ tua_school = college_teams["Tua Tagovailoa"]
 #Joe Burrow's school from Louisiana State University to LSU  
 college_teams["Joe Burrow"] = "LSU"
 
-#We can also create new key value pairs by using the same syntax. 
+#We can also create new key-value pairs by using the same syntax. 
 #It looks like Henry Ruggs was accidentally added instead of Jedrick Wills,
 #So lets add Jedrick Wills' school to the list
 college_teams["Jedrick Wills"] = "Alabama"
@@ -161,8 +158,8 @@ for player in top_10_players:
 
 #Like lists, strings are also iterables in Python!
 #For example, we can print every character of a string like so - 
-string = "Charles River Associates"
-for s in string:
+cra = "Charles River Associates"
+for s in cra:
     print(s)
 
 #Now you try! Use a For Loop to print the statement from the end of Part 2
