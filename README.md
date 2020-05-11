@@ -1,4 +1,4 @@
-# Intro-to-Python
+# Tech Lab: Intro to Python - Parts I and II
 
 Welcome to Intro to Python! In this repository you'll find all the materials you'll need to get started. 
 
