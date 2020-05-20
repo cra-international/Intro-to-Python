@@ -1,0 +1,8 @@
+name: intro-environment
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas>=1.0.0
+  - openbrewerydb
+  - requests
