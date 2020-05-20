@@ -13,13 +13,12 @@ If you have trouble installing Anaconda, you can also run these files by clickin
 Happy coding!
 
 -------------------
-# Videos of Tech Labs
+## Videos of Tech Labs
 
 * [**Intro to Python - Part I**](https://web.microsoftstream.com/video/bc1d90c8-3dfe-40b9-a12c-ef2b2672bd79)
 
 * **Intro to Python - Part II** (*Coming Soon*)
 
--------------------
-# Supplemental Videos
+## Supplemental Videos
 
 * **Demystifying Magic Solution** (*Coming Soon*)
