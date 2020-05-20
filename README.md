@@ -11,3 +11,15 @@ If you have trouble installing Anaconda, you can also run these files by clickin
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cra-international/Intro-to-Python/master)
 
 Happy coding!
+
+-------------------
+# Videos of Tech Labs
+
+* [**Intro to Python - Part I**](https://web.microsoftstream.com/video/bc1d90c8-3dfe-40b9-a12c-ef2b2672bd79)
+
+* **Intro to Python - Part II** (*Coming Soon*)
+
+-------------------
+# Supplemental Videos
+
+* **Demystifying Magic Solution** (*Coming Soon*)
