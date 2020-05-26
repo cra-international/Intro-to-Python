@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr 16 12:46:44 2019
-
-@author: CWilson
+Configuration file for textMe Python package
 """
 
 import setuptools
