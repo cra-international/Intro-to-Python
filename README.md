@@ -6,7 +6,7 @@ To download the materials, simply click on the green "Clone or download" button 
 
 After you've installed Anaconda, we will cover opening the files stored in this repository at the beginning of "Intro to Python - Part I". 
 
-If you have trouble installing Anaconda, you can also run these files by clicking the "launch binder" button below. This will build an online Python environment for you to run the demo materials. 
+If you have trouble installing Anaconda, you can also run the Part 1 and Part 2 files by clicking the "launch binder" button below. This will build an online Python environment for you to run the demo materials. 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cra-international/Intro-to-Python/master)
 
