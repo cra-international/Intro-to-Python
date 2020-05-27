@@ -19,6 +19,8 @@ Happy coding!
 
 * [**Intro to Python - Part II**](https://web.microsoftstream.com/video/58f61377-a556-40f8-aae5-8a2148c33e88)
 
+* [**Intro to Python - Part III**] (*Coming Soon*)
+
 ## Supplemental Videos
 
-* **Demystifying Magic Solution** (*Coming Soon*)
+* [Demystifying Magic Solution](https://web.microsoftstream.com/video/bbf903ea-d081-4b8f-8224-13afcf3c8ddc)
