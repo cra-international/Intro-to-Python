@@ -23,4 +23,4 @@ Happy coding!
 
 ## Supplemental Videos
 
-* [Demystifying Magic Solution](https://web.microsoftstream.com/video/bbf903ea-d081-4b8f-8224-13afcf3c8ddc)
+* [**Demystifying Magic Solution**](https://web.microsoftstream.com/video/bbf903ea-d081-4b8f-8224-13afcf3c8ddc)
