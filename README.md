@@ -19,7 +19,7 @@ Happy coding!
 
 * [**Intro to Python - Part II**](https://web.microsoftstream.com/video/58f61377-a556-40f8-aae5-8a2148c33e88)
 
-* [**Intro to Python - Part III**] (*Coming Soon*)
+* [**Intro to Python - Part III**](https://web.microsoftstream.com/video/cc77376c-8703-48df-ba6a-f2c30865c82d)
 
 ## Supplemental Videos
 
